@@ -60,12 +60,12 @@
 		
 		<gap:plugin name="org.apache.cordova.geolocation" version="0.3.6" />
 		
-		<icon src="img/favicon.ico" gap:platform="android" gap:density="ldpi" />
-		<icon src="img/favicon.ico" gap:platform="android" gap:density="mdpi" />
-		<icon src="img/favicon.ico" gap:platform="android" gap:density="hdpi" />
-		<icon src="img/favicon.ico" gap:platform="android" gap:density="xhdpi" />
-		<icon src="img/favicon.ico" gap:platform="android" gap:density="xxhdpi" />
-		<icon src="img/favicon.ico" gap:platform="android" gap:density="xxxhdpi" />
+		<icon src="img/ave.png" gap:platform="android" gap:density="ldpi" />
+		<icon src="img/ave.png" gap:platform="android" gap:density="mdpi" />
+		<icon src="img/ave.png" gap:platform="android" gap:density="hdpi" />
+		<icon src="img/ave.png" gap:platform="android" gap:density="xhdpi" />
+		<icon src="img/ave.png" gap:platform="android" gap:density="xxhdpi" />
+		<icon src="img/ave.png" gap:platform="android" gap:density="xxxhdpi" />
 		
 		<gap:splash src="img/ave.png" gap:platform="android" gap:density="ldpi" />
 		<gap:splash src="img/ave.png" gap:platform="android" gap:density="mdpi" />

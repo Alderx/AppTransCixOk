@@ -1,0 +1,46 @@
+body{
+	
+
+	/*background: url(../img/slide/chiclayobg3.jpg) no-repeat center center fixed;*/
+	background:#F7D358;
+	background-size: cover;
+	margin:0;
+	color:#000;
+	font:x-small Georgia Serif;
+	font-size:/**/small;
+	font-size: /**/small;
+	text-align: center;
+}
+.bgcolor-head{
+	background-color: #950E1F;
+}
+
+.bgcolor-opciones{
+	background-color: #950E1F;
+}
+.btn-info[disabled]{
+	background-color: #950E1F;
+	border-color: #950E1F;
+}
+.btn[disabled]{
+	opacity: 1;
+}
+.panel-default>.panel-heading{
+	color: #fff;
+	background-color: #950E1F;
+
+}
+.panel-title{
+	font-size: 14px;
+}
+.nav-tabs>li>a{
+	color: #950E1F;
+	background-color: #F8CA34;
+}
+.nav-tabs>li.active>a{
+	color: #fff;
+	background-color: #950E1F;
+}
+.font-trece{
+	font-size:13px;
+}

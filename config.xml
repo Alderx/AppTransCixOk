@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<widget xmlns = "http://www.w3.org/ns/widgets"
 		xmlns:gap = "http://phonegap.com/ns/1.0"
-		id        = "com.marcelo.transpchiclayo"
-		versionCode="1.4"
+		id        = "com.marcelo.transcix"
+		versionCode="2.1"
 		version   = "1.0">
 
-		<name>App Transp Chiclayo</name>
+		<name>AppTransCixOk</name>
 
 		<description>
-			Esta aplicacion te permitira hacer compras de tus pasajes.
+			Aplicacion Móvil de Ventas de Pasajes - Transportes Chiclayo.
 		</description>
 
 		<author href="www.facebook.com/marusero" email="marcelo.alayo@gmail.com">
 			Marcelo Alayo
 		</author>
 		
-		<preference name="phonegap-version" value="3.6.3" />
-		<preference name="orientation" value="default" />
+		<preference name="phonegap-version" value="3.7.0" />
+		<preference name="orientation" value="vertical" />
 		<preference name="fullscreen" value="false" />
 		<preference name="target-device" value="universal" />
 		<preference name="webviewbounce" value="true" />
@@ -60,18 +60,18 @@
 		
 		<gap:plugin name="org.apache.cordova.geolocation" version="0.3.6" />
 		
-		<icon src="images/icono.png" gap:platform="android" gap:density="ldpi" />
-		<icon src="images/icono.png" gap:platform="android" gap:density="mdpi" />
-		<icon src="images/icono.png" gap:platform="android" gap:density="hdpi" />
-		<icon src="images/icono.png" gap:platform="android" gap:density="xhdpi" />
-		<icon src="images/icono.png" gap:platform="android" gap:density="xxhdpi" />
-		<icon src="images/icono.png" gap:platform="android" gap:density="xxxhdpi" />
+		<icon src="img/favicon.ico" gap:platform="android" gap:density="ldpi" />
+		<icon src="img/favicon.ico" gap:platform="android" gap:density="mdpi" />
+		<icon src="img/favicon.ico" gap:platform="android" gap:density="hdpi" />
+		<icon src="img/favicon.ico" gap:platform="android" gap:density="xhdpi" />
+		<icon src="img/favicon.ico" gap:platform="android" gap:density="xxhdpi" />
+		<icon src="img/favicon.ico" gap:platform="android" gap:density="xxxhdpi" />
 		
-		<gap:splash src="images/screen/screen-ldpi.png" gap:platform="android" gap:density="ldpi" />
-		<gap:splash src="images/screen/screen-ldpi.png" gap:platform="android" gap:density="mdpi" />
-		<gap:splash src="images/screen/screen-ldpi.png" gap:platform="android" gap:density="hdpi" />
-		<gap:splash src="images/screen/screen-ldpi.png" gap:platform="android" gap:density="xhdpi" />
-		<gap:splash src="images/screen/screen-ldpi.png" gap:platform="android" gap:density="xxhdpi" />
+		<gap:splash src="img/ave.png" gap:platform="android" gap:density="ldpi" />
+		<gap:splash src="img/ave.png" gap:platform="android" gap:density="mdpi" />
+		<gap:splash src="img/ave.png" gap:platform="android" gap:density="hdpi" />
+		<gap:splash src="img/ave.png" gap:platform="android" gap:density="xhdpi" />
+		<gap:splash src="img/ave.png" gap:platform="android" gap:density="xxhdpi" />
 		
 		<access origin="org.apache.cordova.geolocation" />
 		<access origin="31.170.163.241" />

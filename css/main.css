@@ -1,15 +1,64 @@
 body{
-	
 
-	/*background: url(../img/slide/chiclayobg3.jpg) no-repeat center center fixed;*/
+/*	background: url(../img/slide/chiclayobg3.jpg) no-repeat center center fixed;
 	background:#F7D358;
 	background-size: cover;
 	margin:0;
 	color:#000;
-	font:x-small Georgia Serif;
-	font-size:/**/small;
-	font-size: /**/small;
+	font:x-small Verdana;
+	font-size:small;
+	text-align: center;*/
+
+	background:#FFE075;
+	/*filter:alpha(opacity=85);
+	-moz-opacity:.85;*/
+	
+	font:small Verdana;
+}
+
+.body{
+	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	height: 100%;
+	/*background-color: #FFE075;*/
+	color: #fff;
 	text-align: center;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+
+}
+/*.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; *//* For at least Firefox */
+ /* min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.2);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.2);
+    filter:alpha(opacity=85);
+	-moz-opacity:.85;
+}*/
+
+#imgback {
+	position: fixed;
+	position: absolute;;
+	z-index: -1;
+	top: 0px;
+	left: 0;
+	width: 100%;
+	height: 100%
+}
+.centrado {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+a:link{   
+	text-decoration:none;
 }
 .bgcolor-head{
 	background-color: #950E1F;
@@ -43,4 +92,95 @@ body{
 }
 .font-trece{
 	font-size:13px;
+}
+
+.index-imagen{
+	box-shadow: 0px 0px 10px 4px;
+	color: #F7D358;
+}
+.index-texto{
+	color:#F7D358;
+	text-shadow:0 0 0.2em #950e1f, 0 0 0.2em #950e1f, 0 0 0.2em #950e1f, 0 0 0.2em #950e1f;
+	/*text-shadow:black 0.1em 0.1em 0.2em;*/
+}
+.close:hover{
+	color: red;
+}
+
+
+
+
+/* No mas tablas - tablas responsivas */
+
+@media only screen and (max-width: 800px) {
+    
+    /* Force table to not be like tables anymore */
+	#no-more-tables table, 
+	#no-more-tables thead, 
+	#no-more-tables tbody, 
+	#no-more-tables th, 
+	#no-more-tables td, 
+	#no-more-tables tr { 
+		display: block; 
+	}
+ 
+	/* Hide table headers (but not display: none;, for accessibility) */
+	#no-more-tables thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+ 
+	#no-more-tables tr { border: 1px solid #ccc; }
+ 
+	#no-more-tables td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+		white-space: normal;
+		text-align:left;
+	}
+ 
+	#no-more-tables td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		text-align:left;
+		font-weight: bold;
+	}
+ 
+	/*
+	Label the data
+	*/
+	#no-more-tables td:before { content: attr(data-title); background-color: #A63028; color: yellow;}
+}
+
+.flechita select {
+	border: 1px solid #ccc;
+    background: URL("../img/icon1.png") no-repeat 530px 1px #fff !important;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+body.modal-open #wrap{
+    -webkit-filter: blur(7px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+}
+
+input.image_buscar {
+	width: 20px;
+	border: 0px;
+	position: relative;
+	top:1px;
 }
